@@ -1,0 +1,38 @@
+svg#canvas {
+  position: absolute;
+  left: 30em;
+  border: 1px solid #d9d8d1;
+}
+
+text {
+  text-anchor: middle;
+}
+
+rect {
+  fill: white;
+}
+
+rect.active {
+  fill: #D0B598;
+}
+
+rect.inactive {
+  fill: gray;
+}
+
+rect.coarser {
+  fill: #D0A398;
+}
+
+rect.finer {
+  fill: #87979E;
+}
+
+marker#triangle {
+  fill: #999;
+}
+
+polyline.link {
+  stroke: #999;
+  stroke-width: 1.5px;
+}
