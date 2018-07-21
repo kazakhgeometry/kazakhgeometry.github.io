@@ -1,0 +1,1 @@
+# kazakhgeometry.github.io
