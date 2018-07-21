@@ -3,7 +3,7 @@
     {
       "id" : "Zar",
       "symbol" : "\\mathrm{Zar}",
-      "name" : "Zariski topology",
+      "name" : "Көрсетші мәселе неде",
     
       "generated" : "a jointly surjective family $\\{f_i\\colon U_i\\to X\\}_{i\\in I}$, for $f_i$ an open immersion",
       "refining" : [ "Zar", "cdp" ],
