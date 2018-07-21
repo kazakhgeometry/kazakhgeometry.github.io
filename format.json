@@ -3,7 +3,7 @@
     {
       "id" : "Zar",
       "symbol" : "\\mathrm{Zar}",
-      "Атауы" : "Топологиялық кеңістік",
+      "name" : "Топологиялық кеңістік",
     
       "Анықтамасы" : "Жиын $X$-тың топологиясы --- ол $X$-тың ішкі жиындардың жиіні $T$. Келесі аксиомаларға бағынады
       $\begin{itemize}
@@ -24,7 +24,7 @@
     {
       "id" : "Nis",
       "symbol" : "\\mathrm{Nis}",
-      "Атауы" : "Хаусдорф кеңістігі",
+      "name" : "Хаусдорф кеңістігі",
     
       "generated" : "Кез келген екі нүкте қиылыспайтын екі ашық жиынның мүшелері болады",
       
@@ -37,7 +37,7 @@
     {
       "id" : "et",
       "symbol" : "\\mathrm{ét}",
-      "Атауы" : "Symplectic manifold",
+      "name" : "Symplectic manifold",
     
       "generated" : "a jointly surjective family $\\{f_i\\colon U_i\\to X\\}_{i\\in I}$, for $f_i$ an étale morphism",
       
@@ -50,7 +50,7 @@
     {
       "id" : "sm",
       "symbol" : "\\mathrm{sm}",
-      "Атауы" : "smooth topology",
+      "name" : "smooth topology",
 
       "x" : 3,
       "y" : 0
@@ -59,7 +59,7 @@
     {
       "id" : "syn",
       "symbol" : "\\mathrm{syn}",
-      "Атауы" : "syntomic topology",
+      "name" : "syntomic topology",
 
       "x" : 4,
       "y" : 0
@@ -68,7 +68,7 @@
     {
       "id" : "fppf",
       "symbol" : "\\mathrm{fppf}",
-      "Атауы" : "fppf topology",
+      "name" : "fppf topology",
 
       "refining" : ["Nis", "fps"],
     
