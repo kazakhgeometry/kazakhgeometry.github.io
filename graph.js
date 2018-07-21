@@ -48,7 +48,7 @@ function getIndex(nodes, id) {
 
 function replaceTerms(string, terms) {
   for (term in terms)
-    string = string.replace(term, "<a href='http://stacks.math.columbia.edu/tag/" + terms[term] + "'>" + term + "</a>");
+    string = string.replace(term, "<a href='https://stacks.math.columbia.edu/tag/" + terms[term] + "'>" + term + "</a>");
   // TODO we should make sure we don't match integral in "integrally closed", hence there should be a regex for "end of string or space after the word"
 
   return string;
