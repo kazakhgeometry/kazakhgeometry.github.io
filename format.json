@@ -13,7 +13,7 @@
       
      $T$ топология болса, оның мүшелері ашық жиындар деп аталады. 
       ",
-      "refining" : [ "Zar"],
+      "refining" : [ "Zar", "cdp"],
       
       "points" : "local ring",
     
@@ -60,7 +60,6 @@
       "id" : "syn",
       "symbol" : "\\mathrm{syn}",
       "name" : "syntomic topology",
-
       "x" : 4,
       "y" : 0
     },
