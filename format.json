@@ -3,10 +3,17 @@
     {
       "id" : "Zar",
       "symbol" : "\\mathrm{Zar}",
-      "name" : "Kaehler manifold",
+      "Атауы" : "Топологиялық кеңістік",
     
-      "generated" : "Go fuck yourself it fucking works ha what would you say to that",
-      "refining" : [ "Zar", "cdp" ],
+      "Анықтамасы" : "Жиын $X$-тың топологиясы --- ол $X$-тың ішкі жиындардың жиіні $T$. Келесі аксиомаларға бағынады
+      $\begin{itemize}
+       \item Бос жиын мен $X$ $T$-нің мүшелері болады
+       \item $T$-нің мүшелерінің бірігуі $T$-нің мүшесі болады
+       \item $T$-нің 2 мүшенің бірігуі $T$-нің мүшесі болады.   
+       \end{itemize}$
+     $T$ топология болса, оның мүшелері ашық жиындар деп аталады. 
+      ",
+      "refining" : [ "Zar"],
       
       "points" : "local ring",
     
@@ -17,9 +24,9 @@
     {
       "id" : "Nis",
       "symbol" : "\\mathrm{Nis}",
-      "name" : "Complex manifold",
+      "Атауы" : "Хаусдорф кеңістігі",
     
-      "generated" : "a completely decomposed family $\\{f_i\\colon U_i\\to X\\}_{i\\in I}$, for $f_i$ an étale morphism",
+      "generated" : "Кез келген екі нүкте қиылыспайтын екі ашық жиынның мүшелері болады",
       
       "points" : "henselian local ring",
     
@@ -30,7 +37,7 @@
     {
       "id" : "et",
       "symbol" : "\\mathrm{ét}",
-      "name" : "Symplectic manifold",
+      "Атауы" : "Symplectic manifold",
     
       "generated" : "a jointly surjective family $\\{f_i\\colon U_i\\to X\\}_{i\\in I}$, for $f_i$ an étale morphism",
       
@@ -43,7 +50,7 @@
     {
       "id" : "sm",
       "symbol" : "\\mathrm{sm}",
-      "name" : "smooth topology",
+      "Атауы" : "smooth topology",
 
       "x" : 3,
       "y" : 0
@@ -52,7 +59,7 @@
     {
       "id" : "syn",
       "symbol" : "\\mathrm{syn}",
-      "name" : "syntomic topology",
+      "Атауы" : "syntomic topology",
 
       "x" : 4,
       "y" : 0
@@ -61,7 +68,7 @@
     {
       "id" : "fppf",
       "symbol" : "\\mathrm{fppf}",
-      "name" : "fppf topology",
+      "Атауы" : "fppf topology",
 
       "refining" : ["Nis", "fps"],
     
