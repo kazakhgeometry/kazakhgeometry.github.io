@@ -165,6 +165,11 @@ d3.json("format.json", function(error, graph) {
     }
   }
 
+  $.ajaxSetup({
+    scriptCharset: "utf-8",
+    contentType: "application/json; charset=utf-8"
+});  
+    
   $.getJSON("terms.json", function(data) {
     for (id in topologies)
       createPassport(topologies[id], topologies, data);
