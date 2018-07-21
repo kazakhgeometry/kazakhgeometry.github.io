@@ -94,9 +94,10 @@
     {
       "id" : "cl",
       "symbol" : "\\mathrm{cl}",
-      "name" : "closed topology",
+      "name" : "Топологиялық кеңістік",
 
-      "generated" : "a jointly surjective family $\\{f_i\\colon U_i\\to X\\}_{i\\in I}$, for $f_i$ a closed immersion",
+      "generated" : "Жиын $X$-тің топологиясы --- ол $X$-тің ішкі жиындардын жиыны $T$. Топология $T$ келесі аксиомаларға бағынады
+      ",
 
       "points" : "integral ring",
       
