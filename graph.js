@@ -1,4 +1,3 @@
-
 var width = 60,
     height = 20;
 
@@ -300,16 +299,3 @@ function clickTopology(topology) {
     fixedPassport = topology.id;
   }
 }
-© 2018 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-API
-Training
-Shop
-Blog
-About
-Press h to open a hovercard with more details.
