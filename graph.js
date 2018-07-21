@@ -56,7 +56,7 @@ function replaceTerms(string, terms) {
 
 function createPassport(topology, topologies, terms) {
     var passport = $("<div class='invisible passport' id='" + topology.id + "' data-topology='" + topology.id + "'></div>"); // TODO can we remove the id?
-    passport.append("<h2><span class='symbol'>$" + topology.symbol + "$</span> " + topology.name + "</h2>");
+    passport.append("<h2><span class='symbol'>$" + topology.symbol + "$</span> " + topology.Атауы + "</h2>");
 
     var dl = $("<dl></dl>");
     if ("generated" in topology) {
