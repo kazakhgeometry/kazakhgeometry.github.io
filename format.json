@@ -3,7 +3,7 @@
     {
       "id" : "Zar",
       "symbol" : "\\mathrm{Zar}",
-      "name" : "Zariski topology",
+      "name" : "Kaehler manifold",
     
       "generated" : "a jointly surjective family $\\{f_i\\colon U_i\\to X\\}_{i\\in I}$, for $f_i$ an open immersion",
       "refining" : [ "Zar", "cdp" ],
@@ -17,7 +17,7 @@
     {
       "id" : "Nis",
       "symbol" : "\\mathrm{Nis}",
-      "name" : "Nisnevich topology",
+      "name" : "Complex manifold",
     
       "generated" : "a completely decomposed family $\\{f_i\\colon U_i\\to X\\}_{i\\in I}$, for $f_i$ an étale morphism",
       
@@ -30,7 +30,7 @@
     {
       "id" : "et",
       "symbol" : "\\mathrm{ét}",
-      "name" : "étale topology",
+      "name" : "Symplectic manifold",
     
       "generated" : "a jointly surjective family $\\{f_i\\colon U_i\\to X\\}_{i\\in I}$, for $f_i$ an étale morphism",
       
