@@ -3,10 +3,17 @@
     {
       "id" : "Zar",
       "symbol" : "\\mathrm{Zar}",
-      "name" : "Көрсетші мәселе неде",
+      "name" : "Топологиялық кеңістік",
     
-      "generated" : "a jointly surjective family $\\{f_i\\colon U_i\\to X\\}_{i\\in I}$, for $f_i$ an open immersion",
-      "refining" : [ "Zar", "cdp" ],
+      "Анықтамасы" : "Жиын $X$-тың топологиясы --- ол $X$-тың ішкі жиындардың жиіні $T$. Келесі аксиомаларға бағынады
+      
+       item Бос жиын мен $X$ $T$-нің мүшелері болады
+       item $T$-нің мүшелерінің бірігуі $T$-нің мүшесі болады
+       item $T$-нің 2 мүшенің бірігуі $T$-нің мүшесі болады.   
+      
+     $T$ топология болса, оның мүшелері ашық жиындар деп аталады. 
+      ",
+      "refining" : [ "Zar", "cdp"],
       
       "points" : "local ring",
     
@@ -17,9 +24,9 @@
     {
       "id" : "Nis",
       "symbol" : "\\mathrm{Nis}",
-      "name" : "Nisnevich topology",
+      "name" : "Хаусдорф кеңістігі",
     
-      "generated" : "a completely decomposed family $\\{f_i\\colon U_i\\to X\\}_{i\\in I}$, for $f_i$ an étale morphism",
+      "generated" : "Кез келген екі нүкте қиылыспайтын екі ашық жиынның мүшелері болады",
       
       "points" : "henselian local ring",
     
@@ -30,7 +37,7 @@
     {
       "id" : "et",
       "symbol" : "\\mathrm{ét}",
-      "name" : "étale topology",
+      "name" : "Symplectic manifold",
     
       "generated" : "a jointly surjective family $\\{f_i\\colon U_i\\to X\\}_{i\\in I}$, for $f_i$ an étale morphism",
       
@@ -53,7 +60,6 @@
       "id" : "syn",
       "symbol" : "\\mathrm{syn}",
       "name" : "syntomic topology",
-
       "x" : 4,
       "y" : 0
     },
@@ -94,10 +100,9 @@
     {
       "id" : "cl",
       "symbol" : "\\mathrm{cl}",
-      "name" : "Топологиялық кеңістік",
+      "name" : "closed topology",
 
-      "generated" : "Жиын $X$-тің топологиясы --- ол $X$-тің ішкі жиындардын жиыны $T$. Топология $T$ келесі аксиомаларға бағынады
-      ",
+      "generated" : "a jointly surjective family $\\{f_i\\colon U_i\\to X\\}_{i\\in I}$, for $f_i$ a closed immersion",
 
       "points" : "integral ring",
       
