@@ -1,39 +1,23 @@
-<!doctype html>
+<!DOCTYPE>
+<!-- This code is for demonstration purposes only.  You should not hotlink to Github, Rawgit, or files from the Cytoscape.js documentation in your production apps. -->
 <html>
-<head>
-<meta charset="utf-8">
+  <head>
+    <title>cytoscape-dagre.js demo</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+    <link href="style.css" rel="stylesheet" />
 
-<link rel="stylesheet" type="text/css" href="css/normalize.css">
-<link rel="stylesheet" type="text/css" href="css/main.css">
-<link rel="stylesheet" type="text/css" href="css/canvas.css">
-<link rel="stylesheet" type="text/css" href="css/passport.css">
+    <script src="../../js/cytoscape.min.js"></script>
 
-<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <!-- for testing with local version of cytoscape.js -->
+    <!--<script src="../cytoscape.js/build/cytoscape.js"></script>-->
 
-<script type='text/x-mathjax-config'>
-  MathJax.Hub.Config({
-    extensions: ['tex2jax.js'],
-    tex2jax: {inlineMath: [['$', '$']]},
-    TeX: {extensions: ['AMSmath.js', 'AMSsymbols.js'], TagSide: 'left'},
-    'HTML-CSS': { scale: 90 }
-  });
-</script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-<script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-339565-11', 'auto');
-  ga('send', 'pageview');
-</script>
-
-</head>
-
-<body>
-<script type="text/javascript" src="https://cdn.rawgit.com/kazakhgeometry/kazakhgeometry.github.io/master/graph.js">
-</script>
-</body>
+    <script src="https://cdn.rawgit.com/cpettitt/dagre/v0.7.4/dist/dagre.min.js"></script>
+    <script src="https://cdn.rawgit.com/cytoscape/cytoscape.js-dagre/1.5.0/cytoscape-dagre.js"></script>
+  </head>
+  <body>
+    <h1>cytoscape-dagre demo</h1>
+    <div id="cy"></div>
+    <!-- Load application code at the end to ensure DOM is loaded -->
+    <script src="code.js"></script>
+  </body>
 </html>
